@@ -23,12 +23,12 @@ public class BucketAppTest {
 	@Ignore
 	public void showBucketTest() throws IOException, GeneralSecurityException {
 		BucketDto dto = new BucketDto();
-    	dto.setName("yonghoo-bucket");
+    	dto.setName("one-bl-archive-bucket");
     	app.getBucketMetadata(dto);
     }
 	
 	@Test
-//	@Ignore
+	@Ignore
 	public void createBucketTest() throws IOException, GeneralSecurityException {
 		BucketDto dto = new BucketDto();
 //    	dto.setName(Utility.getRandomString("abcdefghijklmnopqrstuvwxyz",7)+"-bucket");

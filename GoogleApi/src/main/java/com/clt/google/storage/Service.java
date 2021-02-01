@@ -19,7 +19,7 @@ import com.google.common.collect.Lists;
  */
 public class Service {
     private static GoogleCredentials getCredentials(final NetHttpTransport HTTP_TRANSPORT) throws IOException {
-		return GoogleCredentials.fromStream(new FileInputStream("I:\\Git\\GoogleStorageJavaMaven\\google-cloud-storage\\src\\main\\java\\com\\clt\\google\\storage\\credentials.json"))
+		return GoogleCredentials.fromStream(new FileInputStream("I:\\Git\\GoogleStorageJavaMaven\\GoogleApi\\src\\main\\java\\com\\clt\\google\\storage\\credentials.json"))
 			        .createScoped(Lists.newArrayList("https://www.googleapis.com/auth/cloud-platform"));
     }
 
