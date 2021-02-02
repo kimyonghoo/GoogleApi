@@ -1,7 +1,7 @@
 # GoogleApi
 Google storage upload sample project
 
-<<How to test google drive api>>
+- How to test google drive api
 1. Google 에 로그인
 2. https://console.developers.google.com/apis 접속
 3. 사용자 인증 정보 > 사용자 인증 정보 만들기 > OAuth 2.0 클라이언트 ID
